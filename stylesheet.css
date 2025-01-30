@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F7B05B;
+}
+
+/* Apply your color palette */
+:root {
+    --primary-color: #F22B29;
+    --secondary-color: #79B791;
+    --dark-color: #393D3F;
+    --accent-color: #D5BBB1;
+}
+
+/* Introductory Container */
+.intro-container {
+    background-color: var(--dark-color);
+    padding: 80px 20px;
+}
+
+.intro-container h1 {
+    color: var(--primary-color);
+}
+
+.intro-container p {
+    color: var(--secondary-color);
+}
+
+.intro-image {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.intro-nav {
+    margin-top: 20px;
+}
+
+.intro-nav a {
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.intro-nav a:hover {
+    color: var(--accent-color);
+}
+
+/* Blog Posts */
+.blog-post {
+    background-color: var(--secondary-color);
+    color: var(--dark-color);
+}
+
+.blog-post a {
+    color: var(--primary-color);
+}
+
+.blog-post a:hover {
+    color: var(--accent-color);
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: var(--dark-color);
+    color: var(--primary-color);
+}
+
+.sidebar a {
+    color: var(--secondary-color);
+}
+
+.sidebar a:hover {
+    color: var(--accent-color);
+}
+
+/* Footer */
+.footer {
+    background-color: var(--dark-color);
+    color: var(--primary-color);
+}
